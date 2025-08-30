@@ -34,7 +34,7 @@ export default function Home() {
         />
       </div>
       <motion.button
-        initial={{ opacity: 0, x: -600 }}
+        initial={{ x: -100 }}
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 5, type: "spring", stiffness: 300 }}
         whileHover={{
